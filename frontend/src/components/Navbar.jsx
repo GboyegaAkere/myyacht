@@ -13,8 +13,8 @@ const Navbar = () => {
       className="absolute top-3 left-0 w-full z-20"
     >
       <div
-        className="max-w-7xl mx-auto flex items-center justify-between px-6 py-3 
-        bg-white/20 rounded-full shadow-sm h-12"
+        className="max-w-7xl mx-4 md:mx-auto flex items-center justify-between px-6 py-3 
+        bg-white/20 backdrop-blur-md rounded-full shadow-sm h-12"
       >
         {/* Logo */}
         <h1 className="text-lg font-semibold text-white drop-shadow">

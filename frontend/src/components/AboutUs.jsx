@@ -28,9 +28,9 @@ const AboutUs = () => {
           viewport={{ once: true }}
           className="flex flex-col justify-center"
         >
-          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-            About Us
-          </h2>
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4 text-center">
+  About Us
+</h2>
           <p className="text-gray-600 leading-relaxed mb-6">
             At <span className="font-semibold">Equinox Yachts</span>, we
             redefine luxury at sea. From world-class yacht management and

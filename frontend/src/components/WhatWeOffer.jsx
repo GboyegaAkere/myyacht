@@ -12,18 +12,18 @@ const WhatWeOffer = () => {
   return (
     <section className="max-w-7xl mx-auto px-6 md:px-10 py-12">
       {/* Heading and description */}
-      <div className="mb-8 max-w-3xl">
-        <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
-          What We Offer at Equinox Yachts
-        </h2>
-        <p className="text-gray-600 leading-relaxed">
-          At <span className="font-semibold">Equinox Yachts</span>, we go
-          beyond sailing — we deliver unforgettable journeys. From yacht
-          management and custom charters to premium interiors and seamless
-          docking, our services are designed to bring you peace of mind and
-          world-class luxury on the water.
-        </p>
-      </div>
+    <div className="mb-8 max-w-3xl mx-auto text-center">
+  <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
+    What We Offer at Equinox Yachts
+  </h2>
+  <p className="text-gray-600 leading-relaxed">
+    At <span className="font-semibold">Equinox Yachts</span>, we go
+    beyond sailing — we deliver unforgettable journeys. From yacht
+    management and custom charters to premium interiors and seamless
+    docking, our services are designed to bring you peace of mind and
+    world-class luxury on the water.
+  </p>
+</div>
 
       {/* Layout */}
       <div className="flex flex-col md:grid md:grid-cols-2 gap-6">

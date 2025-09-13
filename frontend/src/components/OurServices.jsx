@@ -22,9 +22,11 @@ const OurServices = () => {
   return (
     <section className="max-w-6xl mx-auto px-6 md:px-10 py-12">
       {/* Section Heading */}
-      <h2 className="text-xl md:text-2xl font-semibold  text-gray-900 mb-10 bg-gray-100 inline-block px-5 py-2 rounded-full shadow-sm">
-        Our Services
-      </h2>
+    {/* Section Heading */}
+<h2 className="text-xl md:text-2xl font-semibold text-gray-900 mb-10 bg-gray-100 px-5 py-2 rounded-full shadow-sm mx-auto text-center w-fit">
+  Our Services
+</h2>
+
 
       {/* Services Grid */}
       <div className="grid md:grid-cols-3 gap-8 text-center">
