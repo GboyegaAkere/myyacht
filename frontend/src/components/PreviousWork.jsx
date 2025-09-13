@@ -12,6 +12,7 @@ const works = [
   { id: 1, image: look, alt: "Luxury Yacht at Sea" },
   { id: 2, image: inn, alt: "Private Yacht Lounge" },
   { id: 3, image: innn, alt: "Exclusive Marina Experience" },
+  { id: 4, image: inside, alt: "Exclusive Marina Experience" },
 ];
 
 export default function PreviousWork() {
@@ -37,7 +38,7 @@ export default function PreviousWork() {
     <section className="bg-white py-16">
       {/* Heading */}
       <h2 className="text-2xl md:text-3xl font-semibold text-center mb-10">
-        Our Previous Voyages
+        Our Current Fleet
       </h2>
 
       {/* Desktop Grid */}

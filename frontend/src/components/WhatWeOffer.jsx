@@ -1,4 +1,8 @@
 import { motion } from "framer-motion";
+
+
+
+
 import look from "../images/in.jpg";
 import inn from "../images/inn.jpg";
 import inside from "../images/inside.jpg";
