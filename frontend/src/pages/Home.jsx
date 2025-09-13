@@ -14,9 +14,10 @@ const Home = () => {
     <div>
         <Navbar/>
         <Hero/>
-        <SocialBar/>
+        
         <WhatWeOffer/>
         <OurServices/>
+        <SocialBar/>
         <AboutUs/>
         <PreviousWork/>
         <Faq/>
