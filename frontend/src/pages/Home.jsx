@@ -5,6 +5,7 @@ import SocialBar from '../components/SocialBar'
 import WhatWeOffer from '../components/WhatWeOffer'
 import OurServices from '../components/OurServices'
 import AboutUs from '../components/AboutUs'
+import PreviousWork from '../components/PreviousWork'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         <WhatWeOffer/>
         <OurServices/>
         <AboutUs/>
+        <PreviousWork/>
         
     </div>
   )
