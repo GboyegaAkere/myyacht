@@ -20,7 +20,6 @@ export default function Footer() {
           <ul className="space-y-2 text-sm">
             <li><a href="#about" className="hover:text-white transition">About Us</a></li>
             <li><a href="#fleet" className="hover:text-white transition">Our Fleet</a></li>
-            <li><a href="#voyages" className="hover:text-white transition">Previous Voyages</a></li>
             <li><a href="#faq" className="hover:text-white transition">FAQ</a></li>
             <li><a href="#contact" className="hover:text-white transition">Contact</a></li>
           </ul>
@@ -30,7 +29,7 @@ export default function Footer() {
         <div>
           <h3 className="text-white text-lg font-semibold mb-4">Contact</h3>
           <ul className="space-y-2 text-sm">
-            <li>Email: info@equinox.com</li>
+            <li>Email:equinoxyachts@outlook.com</li>
             <li>Phone: +1(639)380-4955</li>
             <li>Marina Bay, Miami, FL</li>
           </ul>

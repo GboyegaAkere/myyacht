@@ -57,12 +57,21 @@ const Navbar = () => {
               Contact
             </a>
           </li>
+
+          <li>
+            <a href="#faq" className="hover:text-gray-400">
+            FAQ
+            </a>
+          </li>
         </ul>
 
         {/* CTA button (desktop only) */}
-        <button className="hidden md:block px-4 py-2 rounded-full bg-black text-white text-sm font-medium hover:bg-gray-800">
-          Book a Free Call
-        </button>
+        <a
+  href="tel:+16393804955"
+  className="hidden md:block px-4 py-2 rounded-full bg-black text-white text-sm font-medium hover:bg-gray-800"
+>
+  Book a Free Call
+</a>
 
         {/* Hamburger Button (mobile only) */}
         <button
@@ -103,6 +112,14 @@ const Navbar = () => {
               onClick={() => setIsOpen(false)}
             >
               Contact
+            </a>
+
+             <a
+              href="#faq"
+              className="block text-base font-medium hover:text-gray-300"
+              onClick={() => setIsOpen(false)}
+            >
+              FAQ
             </a>
             <button className="w-full px-4 py-2 rounded-full bg-black text-white text-sm font-medium hover:bg-gray-800">
               Book a Free Call

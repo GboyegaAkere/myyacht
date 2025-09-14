@@ -8,19 +8,21 @@ import AboutUs from '../components/AboutUs'
 import PreviousWork from '../components/PreviousWork'
 import Faq from '../components/Faq'
 import Footer from '../components/Footer'
+import ContactUs from '../components/ContactUs'
 
 const Home = () => {
   return (
     <div>
         <Navbar/>
         <Hero/>
-        
         <WhatWeOffer/>
+        
         <OurServices/>
         <SocialBar/>
         <AboutUs/>
         <PreviousWork/>
         <Faq/>
+        {/* <ContactUs/> */}
         <Footer/>
         
     </div>

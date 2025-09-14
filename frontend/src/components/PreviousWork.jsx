@@ -35,7 +35,7 @@ export default function PreviousWork() {
   }, [current]);
 
   return (
-    <section className="bg-white py-16">
+    <section id="fleet" className="bg-white py-16">
       {/* Heading */}
       <h2 className="text-2xl md:text-3xl font-semibold text-center mb-10">
         Our Current Fleet

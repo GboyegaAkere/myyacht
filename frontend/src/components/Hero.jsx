@@ -37,9 +37,12 @@ const Hero = () => {
         <p className="mt-4 text-lg md:text-xl text-gray-200">
           From concept to open waters, luxury yachting tailored to your journey.
         </p>
-        <button className="mt-6 px-6 py-3 bg-white text-black font-medium rounded-lg shadow-lg hover:bg-gray-200">
-           Get in touch with us
-        </button>
+       <a
+  href="tel:+16393804955"
+  className="mt-6 inline-block px-6 py-3 bg-white text-black font-medium rounded-lg shadow-lg hover:bg-gray-200"
+>
+  Get in touch with us
+</a>
       </motion.div>
     </section>
   );
