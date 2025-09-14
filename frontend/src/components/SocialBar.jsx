@@ -1,22 +1,39 @@
 import { motion } from "framer-motion";
 
+// Example logos — update paths to match your assets
+import rolex from "../images/rolex.png";
+import louisVuitton from "../images/luiz.jpg";
+import ritz from "../images/ritz.png";
+import bentley from "../images/bet.png";
+import netjets from "../images/net.png";
+import moet from "../images/moet.png";
+import emirates from "../images/emirate.png";
+import cartier from "../images/cat.jpg";
+// import montblanc from "../assets/logos/montblanc.png";
+// import sunseeker from "../assets/logos/sunseeker.png";
+// import fourSeasons from "../assets/logos/fourseasons.png";
+// import bmw from "../assets/logos/bmw.png";
+// import omega from "../assets/logos/omega.png";
+// import patek from "../assets/logos/patek.png";
+// import virgin from "../assets/logos/virgin.png";
+
 const SocialBar = () => {
   const partners = [
-    { name: "Rolex", color: "#005B2E" },
-    { name: "Louis Vuitton", color: "#4E3629" },
-    { name: "Ritz-Carlton", color: "#002147" },
-    { name: "Bentley", color: "#2C2C2C" },
-    { name: "NetJets", color: "#6D6E71" },
-    { name: "Moët & Chandon", color: "#D4AF37" },
-    { name: "Emirates Airlines", color: "#D71920" },
-    { name: "Cartier", color: "#B31B1B" },
-    { name: "Montblanc", color: "#000000" },
-    { name: "Sunseeker", color: "#003B5C" },
-    { name: "Four Seasons", color: "#556B2F" },
-    { name: "BMW", color: "#0066B1" },
-    { name: "Omega", color: "#C8102E" },
-    { name: "Patek Philippe", color: "#704214" },
-    { name: "Virgin Voyages", color: "#E60026" },
+    { name: "Rolex", logo: rolex },
+    { name: "Louis Vuitton", logo: louisVuitton },
+    { name: "Ritz-Carlton", logo: ritz },
+    { name: "Bentley", logo: bentley },
+    { name: "NetJets", logo: netjets },
+    { name: "Moët & Chandon", logo: moet },
+    { name: "Emirates Airlines", logo: emirates },
+    { name: "Cartier", logo: cartier },
+    // { name: "Montblanc", logo: montblanc },
+    // { name: "Sunseeker", logo: sunseeker },
+    // { name: "Four Seasons", logo: fourSeasons },
+    // { name: "BMW", logo: bmw },
+    // { name: "Omega", logo: omega },
+    // { name: "Patek Philippe", logo: patek },
+    // { name: "Virgin Voyages", logo: virgin },
   ];
 
   // Duplicate list so it loops seamlessly
@@ -41,13 +58,12 @@ const SocialBar = () => {
           }}
         >
           {loopPartners.map((partner, index) => (
-            <span
+            <img
               key={index}
-              style={{ color: partner.color }}
-              className="text-lg font-semibold"
-            >
-              {partner.name}
-            </span>
+              src={partner.logo}
+              alt={partner.name}
+              className="h-10 md:h-14 object-contain"
+            />
           ))}
         </motion.div>
       </div>
