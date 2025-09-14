@@ -29,7 +29,7 @@ export default function Footer() {
         <div>
           <h3 className="text-white text-lg font-semibold mb-4">Contact</h3>
           <ul className="space-y-2 text-sm">
-            <li>Email:equinoxyachts@outlook.com</li>
+            <li>Email: equinoxyachts@outlook.com</li>
             <li>Phone: +1(639)380-4955</li>
             <li>Marina Bay, Miami, FL</li>
           </ul>
