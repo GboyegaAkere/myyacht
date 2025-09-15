@@ -33,7 +33,7 @@ const WhatWeOffer = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="relative rounded-xl overflow-hidden h-[260px] md:h-[420px] w-full"
+          className="relative rounded-xl overflow-hidden h-[260px] md:h-[436px] w-full"
         >
           <img
             src={innn}

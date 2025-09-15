@@ -7,12 +7,16 @@ import look from "../images/in.jpg";
 import inn from "../images/inn.jpg";
 import inside from "../images/inside.jpg";
 import innn from "../images/inse.jpg";
+import d from "../images/fi (4).jpg"
+import e from "../images/fi (5).jpg"
 
 const works = [
   { id: 1, image: look, alt: "Luxury Yacht at Sea" },
   { id: 2, image: inn, alt: "Private Yacht Lounge" },
   { id: 3, image: innn, alt: "Exclusive Marina Experience" },
   { id: 4, image: inside, alt: "Exclusive Marina Experience" },
+   { id: 5, image: d, alt: "Distinctive Marina Elegance" },
+    { id: 6, image: e, alt: "Unmatched Marina Living" },
 ];
 
 export default function PreviousWork() {

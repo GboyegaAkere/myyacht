@@ -69,7 +69,7 @@ const AboutUs = () => {
             href="tel:+16393804955"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="px-6 py-3 bg-blue-700 text-white text-center rounded-full font-medium shadow-md hover:bg-blue-800 transition"
+            className="px-6 py-3 bg-gray-900 text-white text-center rounded-full font-medium shadow-md hover:bg-gray-800 transition"
           >
             Book a Free Call
           </motion.a>

@@ -36,7 +36,7 @@ const OurServices = () => {
             className="flex flex-col items-center gap-4 p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow bg-white"
           >
             {/* Icon with circle background */}
-            <div className="w-14 h-14 flex items-center justify-center rounded-full bg-blue-700 shadow-md">
+            <div className="w-14 h-14 flex items-center justify-center rounded-full bg-gray-900 shadow-md">
               {service.icon}
             </div>
             {/* Title */}
