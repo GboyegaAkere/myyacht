@@ -9,6 +9,7 @@ import PreviousWork from '../components/PreviousWork'
 import Faq from '../components/Faq'
 import Footer from '../components/Footer'
 import ContactUs from '../components/ContactUs'
+import WhatWeSell from '../components/WhatWeSell'
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
         <Navbar/>
         <Hero/>
         <WhatWeOffer/>
+        <WhatWeSell/>
         
         <OurServices/>
         <SocialBar/>
