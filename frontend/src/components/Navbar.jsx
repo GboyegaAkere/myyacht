@@ -2,6 +2,10 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react"; // install: npm install lucide-react
 
+
+
+import logo from "../images/logo-removebg-preview.png"
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -39,6 +43,7 @@ const Navbar = () => {
         <a href="#home"  className="text-2xl font-bold drop-shadow">
           EQUINOX YACHTS
         </a>
+        {/* <img src={logo} alt="" className="w-30 h-30" /> */}
 
         {/* Desktop Links */}
         <ul className="hidden md:flex space-x-8 text-sm font-medium">
