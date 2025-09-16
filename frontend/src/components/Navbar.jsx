@@ -36,9 +36,9 @@ const Navbar = () => {
         }`}
       >
         {/* Logo */}
-        <h1 className="text-lg font-semibold drop-shadow">
+        <a href="#home"  className="text-2xl font-bold drop-shadow">
           EQUINOX YACHTS
-        </h1>
+        </a>
 
         {/* Desktop Links */}
         <ul className="hidden md:flex space-x-8 text-sm font-medium">
