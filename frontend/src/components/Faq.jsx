@@ -34,6 +34,12 @@ const faqs = [
     answer:
       "Yes, we provide charters across popular destinations worldwide including the Mediterranean, Caribbean, and beyond.",
   },
+
+   {
+    question: "Do you also buy and sell yachts?",
+    answer:
+      "Yes, Equinox Yachts assists clients with both buying and selling yachts. Our team connects you with trusted buyers and sellers, ensuring smooth,transparent, and professional transactions.",
+  },
 ];
 
 export default function Faq() {
