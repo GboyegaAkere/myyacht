@@ -14,10 +14,10 @@ const WhatWeOffer = () => {
       {/* Heading and description */}
     <div className="mb-8 max-w-3xl mx-auto text-center">
   <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
-    What We Offer at Equinox Yachts
+    What We Offer at Equiinox Yachts
   </h2>
   <p className="text-gray-600 leading-relaxed">
-    At <span className="font-semibold">Equinox Yachts</span>, we go
+    At <span className="font-semibold">Equiinox Yachts</span>, we go
     beyond sailing — we deliver unforgettable journeys. From yacht
     management and custom charters to premium interiors and seamless
     docking, our services are designed to bring you peace of mind and

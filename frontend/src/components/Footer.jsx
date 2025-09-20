@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto flex flex-col gap-10 md:flex-row md:justify-between">
         {/* About */}
         <div className="md:w-1/3">
-          <h2 className="text-white text-xl font-semibold mb-4">Equinox Yachts</h2>
+          <h2 className="text-white text-xl font-semibold mb-4">Equiinox Yachts</h2>
           <p className="text-gray-400 text-sm leading-relaxed">
             Experience luxury on the open sea. We provide bespoke yacht charters
             and unforgettable voyages across the Mediterranean, Caribbean, and beyond.
@@ -31,7 +31,7 @@ export default function Footer() {
           <ul className="space-y-2 text-sm">
             <li>Email: equinoxyachts@outlook.com</li>
             <li>Phone: +1(639)380-4955</li>
-            <li>Marina Bay, Miami, FL</li>
+            <li>Port Hercule de Monaco</li>
           </ul>
           {/* Socials */}
           <div className="flex space-x-4 mt-4">
@@ -45,7 +45,7 @@ export default function Footer() {
 
       {/* Bottom Row */}
       <div className="border-t border-gray-700 mt-10 pt-6 text-center text-sm text-gray-500">
-        © {new Date().getFullYear()} Equinox Yachts. All Rights Reserved.
+        © {new Date().getFullYear()} Equiinox Yachts. All Rights Reserved.
       </div>
     </footer>
   );

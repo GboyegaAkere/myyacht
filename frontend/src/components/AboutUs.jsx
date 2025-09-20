@@ -32,8 +32,8 @@ const AboutUs = () => {
             About Us
           </h2>
           <p className="text-gray-600 leading-relaxed mb-6">
-  At <span className="font-semibold">Equinox Yachts</span>, we redefine luxury
-  at sea. Since <span className="font-semibold">2010</span>, we have been at
+  At <span className="font-semibold">Equiinox Yachts</span>, we redefine luxury
+  at sea. Since <span className="font-semibold">1995</span>, we have been at
   the forefront of delivering exceptional yachting experiences, combining
   world-class yacht management, tailored charters, premium interiors, and
   seamless docking solutions. Every detail is designed to blend innovation,

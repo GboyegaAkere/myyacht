@@ -50,7 +50,7 @@ const WhatWeSell = () => {
           Explore Yachts for Sale
         </h2>
         <p className="text-gray-600 leading-relaxed">
-          At <span className="font-semibold">Equinox Yachts</span>, we connect
+          At <span className="font-semibold">Equiinox Yachts</span>, we connect
           you with world-class vessels designed for elegance, performance, and
           comfort. Browse our collection of luxury yachts, each crafted to
           deliver unmatched experiences on the water.
